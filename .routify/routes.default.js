@@ -16,16 +16,16 @@ export default {
   "children": [
     {
       "meta": {},
-      "id": "_default_hello_world_md",
-      "name": "hello-world",
+      "id": "_default_game_svelte",
+      "name": "game",
       "file": {
-        "path": "src/routes/hello-world.md",
+        "path": "src/routes/game.svelte",
         "dir": "src/routes",
-        "base": "hello-world.md",
-        "ext": ".md",
-        "name": "hello-world"
+        "base": "game.svelte",
+        "ext": ".svelte",
+        "name": "game"
       },
-      "asyncModule": () => import('../src/routes/hello-world.md'),
+      "asyncModule": () => import('../src/routes/game.svelte'),
       "children": []
     },
     {
